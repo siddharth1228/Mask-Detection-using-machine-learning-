@@ -1,0 +1,46 @@
+<!doctype html>
+
+
+    <head>
+        <title>Mask Survilliance</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pattaya">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing Script">
+    </head>
+    <body>
+        <div class="header">
+            <img src="{{ url_for('static', filename='mask_icon.png') }}" height="200px" width="200px">
+            <h1 class="project-title">Mask Survilliance System</h1>
+        </div>
+        <div class="test-buttons">
+            <h3>START : </h3>
+            
+            
+            
+            <form action="/C:/Users/siddh/Mask-Detection-and-Recognition-using-Deep-Learning-Keras/Python html/templates/Mask Testing using images (1).py" method="post">
+                <button id="image" type="submit">Image&nbsp;<i class="far fa-image"></i></button>
+                
+            </form>
+            <form action="/C:/Users/siddh/Mask-Detection-and-Recognition-using-Deep-Learning-Keras/Mask Testing using Video (1).py" method="post">
+                <button id="video" type="submit">Video&nbsp;<i class="fas fa-video"></i></button>
+                
+            </form>
+            <p class="guide">Click on "Image" button for detecting faces with & without mask in image. <br> Click "Video" button for starting video survilliance.</p>
+        </div>
+        <div class="footer">
+            <div class="students">
+                <span class="team">Project By:</span><br>
+                Siddharth Dahiya 18BCE0446<br>
+                Ashish Poudel 18BCE2446<br>
+            </div>
+            <img src="{{ url_for('static', filename='vit-logo.jpg') }}">
+            <div class="guidance">
+                <span class="guidance-header">Under the guidance of:</span><br>
+                    Dr. Swathi J.N. <br>
+                    Associate Professor, SCOPE <br>
+                    VIT, Vellore 
+            </div>
+        </div>
+    </body>
+</html>

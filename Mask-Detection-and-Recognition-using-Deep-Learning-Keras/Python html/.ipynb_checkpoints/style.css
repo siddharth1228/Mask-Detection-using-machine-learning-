@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(32, 32, 32);
+  color: white;
+  margin: 50px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.project-title {
+  background-color: rgb(65, 65, 207);
+  padding: 5px 10px 5px 10px;
+  text-transform: uppercase;
+}
+.test-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.test-buttons button {
+  padding: 5px 10px 5px 10px;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  border: none;
+}
+.test-buttons button:hover {
+  background-color: black;
+  color: white;
+}
+.test-buttons h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+}
+.test-buttons .guide {
+  width: 100%;
+  text-align: center;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+.footer .students {
+  margin-right: 6%;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.footer .students .team {
+  font-size: 24px;
+  text-decoration: underline;
+  font-family: "Pattaya";
+}
+.footer img {
+  height: fit-content;
+  width: 300px;
+  margin-bottom: 20px;
+  margin-right: 6%;
+}
+.footer .guidance {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.footer .guidance .guidance-header {
+  font-size: 24px;
+  text-decoration: underline;
+  font-family: "Pattaya";
+}
